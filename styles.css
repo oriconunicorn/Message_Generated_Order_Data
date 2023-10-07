@@ -1,0 +1,28 @@
+h1{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color:rgb(6, 6, 245);
+}
+
+h4 {
+    font-family: Arial, sans-serif;
+    color:rgb(0, 0, 15)
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fdfcfc; 
+    font-family: Arial, sans-serif;
+}
+
+.center-container {
+    width: 60%; 
+    padding: 20px;
+    background-color: #fff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+}

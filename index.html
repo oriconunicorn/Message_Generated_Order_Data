@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Data</title>
+    <!-- Linking the CSS file here -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+</head>
+<body>
+    <div class="center-container">
+        <h1>Message-Generated Order Data Platform</h1>
+        <h4>This platform will provide you with downloadable spreadsheets</h4>
+        <h4>1. Please copy messages from Feishu dialogues for daily order records</h4>
+        <h4>2. Paste messages into the box below</h4>
+        <form action="/" method="post">
+            <textarea name="data" rows="10" cols="50"></textarea>
+            <input type="submit" value="Process">
+        </form>
+    </div>
+</body>
+</html>
