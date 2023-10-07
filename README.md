@@ -22,7 +22,10 @@ TOTAL TRANSSHIPMENT ORDERS# 200
 ```
 pip install -r requirements.txt
 ```
-
+### Checking Frontend
+```
+Make sure to put HTML file into 'templates' folder and CSS file into 'static'folder.
+```
 ### App.py
 ```
 python -m flask run
