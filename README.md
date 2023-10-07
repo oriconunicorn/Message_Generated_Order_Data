@@ -1,5 +1,5 @@
-# Messaged_Generated_Order_Data
-You can copy and paste messages such as the following to generate spreadsheets.
+# Message_Generated_Order_Data
+You can copy and paste messages such as the following to generate spreadsheets. The project uses Flask as backend web interface.
 ```
 (DELAWARE)--10/6/2023
 当日未完成订单共计：15
